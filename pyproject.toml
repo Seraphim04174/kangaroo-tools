@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textcleaner"
+version = "0.1.0"
+description = "Библиотека для очистки текста"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    { name="Rinat", email="your@email.com" }
+]
+license = {text = "MIT"}
+dependencies = [
+    "nltk",
+    "emoji",
+    "beautifulsoup4"
+]
