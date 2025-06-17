@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='kangaroo-tools',
-    version='0.1.3',
+    version='0.1.1',
     author='Rinat',
     author_email='rinat.islamov.04@gmail.com',
     description='Библиотека для очистки текста от мусора, HTML, эмодзи и стоп-слов',
